@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Playfair+Display:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffdfdf;
+}
+header{
+    font-weight: 200px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color: #FF7A7A;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#Unique{
+    font-size: 25px;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+#link1 , #link2 , #link3{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 80px;
+}
+.Container , .Container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+}
+.box{
+    background-color: #ffacac;
+    height: 450px;
+    width: 450px;
+    margin:100px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    border-radius: 5%;
+}
+.content{
+    font-weight: 100;
+    font-family:'Playfair Display', serif;
+    margin: 20px;
+    text-align: center;
+}
+.box:hover{
+    transform: translate(10px,10px);
+    background-color: #ff7d93;
+}
